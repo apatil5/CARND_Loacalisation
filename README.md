@@ -55,26 +55,12 @@ OUTPUT: values provided by the c++ program to the simulator
 # Implementing the Particle Filter
 The directory structure of this repository is as follows:
 
-```
-root
-|   build.sh
-|   clean.sh
-|   CMakeLists.txt
-|   README.md
-|   run.sh
-|
-|___data
-|   |   
-|   |   map_data.txt
-|   
-|   
-|___src
+repo
     |   helper_functions.h
     |   main.cpp
     |   map.h
     |   particle_filter.cpp
     |   particle_filter.h
-```
 
 #### The Map*
 `map_data.txt` includes the position of landmarks (in meters) on an arbitrary Cartesian coordinate system. Each row has three columns
@@ -85,8 +71,4 @@ root
 ### All other data the simulator provides, such as observations and controls.
 
 > * Map data provided by 3D Mapping Solutions GmbH.
-
-## Result
-
-**Accuracy**: The particle filter estimates vehicle position and yaw to within the values specified in the parameters `max_translation_error` and `max_yaw_error` in `src/main.cpp`.
 
