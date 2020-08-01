@@ -4,7 +4,7 @@ This repository contains all the codes used to complete the project.
 ## Project 
 The robot has a map of the location, a (noisy) GPS estimate of its initial location, and lots of (noisy) sensor and control data.
 
-In this project 2 dimensional particle filter is implemented in in C++. The particle filter is given a map and some initial localization information (analogous to what a GPS would provide). At each time step your the filter gets observation measurement and control data.
+In this project 2 dimensional particle filter is implemented in in C++. The particle filter is given a map and some initial localization information (analogous to what a GPS would provide). At each time step the filter gets observation measurement and control data.
 
 
 INPUT: values provided by the simulator to the c++ program
