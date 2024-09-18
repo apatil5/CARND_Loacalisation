@@ -1,6 +1,3 @@
-# Overview
-This repository contains all the codes used to complete the project.
-
 ## Project 
 The robot has a map of the location, a (noisy) GPS estimate of its initial location, and lots of (noisy) sensor and control data.
 
